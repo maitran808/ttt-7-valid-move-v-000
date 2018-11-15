@@ -1,6 +1,10 @@
 def valid_move?
-  if position_taken?(board, index) == true
+  if position_taken?(board, index)
     true
+  elsif between?(1,9)
+    true
+  else 
+    nil
   end
 end
     
