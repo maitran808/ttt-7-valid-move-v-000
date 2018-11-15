@@ -7,7 +7,7 @@ def position_taken?(board, index)
   end
 end
 
-def valid_move?
+def valid_move?(input)
   if position_taken?(board, index) == true
     false
   elsif index < 1 && index > 9 == true
