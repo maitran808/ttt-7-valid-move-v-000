@@ -3,11 +3,11 @@ def valid_move?
     true
   elsif between?(1,9)
     true
-  else 
+  else
     nil
   end
 end
-    
+
 
 
 def position_taken?(board, index)
