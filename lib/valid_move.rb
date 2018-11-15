@@ -1,5 +1,5 @@
 def valid_move?
-  if position_taken?(board, index) == false
+  if position_taken?(board, index) != false
     true
   elsif index < 1 && index > 9 == true
     true
@@ -7,7 +7,6 @@ def valid_move?
     nil
   end
 end
-
 
 
 def position_taken?(board, index)
